@@ -423,7 +423,7 @@ LRESULT CALLBACK BaseControl(int Alpha,WPARAM Beta,LPARAM Gamma)
     }
     else
     {
-        nullptr;
+        CallNextHookEx(hook,Alpha,Beta,Gamma);
     };
     return CallNextHookEx(hook,Alpha,Beta,Gamma);
 };
