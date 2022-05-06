@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <fstream>
 
-#define AUTHOR "WINTERS";
+#define AUTHOR "ARUN";
 
 HHOOK hook;
 
